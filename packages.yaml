@@ -1,0 +1,16 @@
+packages:
+  - name: WordPress
+    feed_url: http://ja.wordpress.org/feed/
+    class: WordPress
+  - name: MovableType
+    feed_url: http://www.sixapart.jp/movabletype/news/atom.xml
+    class: MovableType
+  - name: BaserCMS
+    feed_url: http://basercms.net/news/index.rss
+    class: WordPress
+  - name: Xoops
+    feed_url: http://xoopscube.jp/news/rss?category_id=3&user_id=&keyword=Xoops+Cube+Legacy
+    class: Xoops
+  - name: Soy CMS
+    feed_url: http://www.soycms.net/topics/
+    class: SoyCMS
