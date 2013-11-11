@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class MovableType
   def initialize(package)
     @package = package
