@@ -7,7 +7,6 @@ class MediaWiki
   def check
     list = Array.new
     file = File.read(CHECK_FILE)
-    list = Array.new
     doc = Nokogiri::HTML::parse(open(@package['feed_url']), nil, 'utf-8')
     doc.css('#mw-content-text//dl').each do|elm|
       date = elm.css('dt').text
