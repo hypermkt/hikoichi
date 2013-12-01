@@ -10,6 +10,7 @@ require_relative './wordpress.rb'
 require_relative './movabletype.rb'
 require_relative './soycms.rb'
 require_relative './xoops.rb'
+require_relative './mediawiki.rb'
 
 CHECK_FILE = 'checked_list.txt'
 

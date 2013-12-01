@@ -14,3 +14,6 @@ packages:
   - name: Soy CMS
     feed_url: http://www.soycms.net/topics/
     class: SoyCMS
+  - name: MediaWiki
+    feed_url: http://www.mediawiki.org/wiki/News/ja
+    class: MediaWiki
