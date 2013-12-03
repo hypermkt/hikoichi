@@ -15,7 +15,6 @@ class MediaWiki
         next
       end
       title = elm.next_element.css('li').text
-      puts elm.next_element
       url = elm.next_element.xpath('li//a').attribute("href").value
       if !file.include?(url) &&
         title.include?('MediaWiki') &&
